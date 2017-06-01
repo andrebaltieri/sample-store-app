@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="col-md-3">
+       <img src="{{ product.image }}" class="img-responsive" alt="{{ product.title }}">     
+  </div>
+  <div class="col-md-9">
+    <h3 class="text-center">{{ product.title }}</h3>
+    <br>
+    <h2 class="text-center">R$ {{ product.price }}</h2>
+    <p class="text-center"><button class="btn btn-success btn-lg"><i class="fa fa-cart-plus"></i> ADICIONAR</button></p>
+  </div>
+</div>
